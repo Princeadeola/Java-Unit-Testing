@@ -1,7 +1,8 @@
 package Mood;
 
 import org.hamcrest.CoreMatchers;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class MoodAnalyserTest {

@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 public class BankAccountTest {
     @org.junit.Test
     public void deposit() {
-        //this is to test the
+        //this is to test the account entries by entering the
         BankAccount account = new BankAccount("Adeola", "Adesipe", 5000.00);
         double balance = account.deposit(2500.00, true);
         assertEquals(7500.00, balance,0);
